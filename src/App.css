@@ -163,13 +163,11 @@ button.inline-flex.items-center{
   .animate__animated.animate__fadeIn {
     --animate-duration: 2s;
   }
-  div.stacked{
+ div.stacked{
     min-height:150px;
     min-width:200px;
     max-width: 300px;
     border-radius:10px;
-    align-items:start;
-    
+    justify-content: start;
    padding:10px;
-   background-color: white;
   }
