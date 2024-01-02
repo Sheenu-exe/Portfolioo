@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        'tall': { 'raw': '(min-width: 480px)' },
+        // => @media (min-height: 800px) { ... }
+      }
+    },
   },
-  plugins: [],
+  plugins: [
+      // ...
+    ('@tailwindcss/forms'),
+  ],
 }

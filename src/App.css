@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Poppins:wght@400;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    --sb-track-color: #00000000;
+    --sb-thumb-color: #4f46e5;
+    --sb-size: 5px;
+  
+    scrollbar-color: var(--sb-thumb-color) 
+                     var(--sb-track-color);
+    background-color: black;
+  }
+  .feat{
+    height:100vh;
+    min-width:100%;
+  }
+  .sec{
+    border-radius: 10px;
+    margin: auto;
+  }
+  div.relative.isolate{
+    margin:15px 0;
+  }
+  h2.text-5xl{
+    margin:15px
+  }
+  .text3{
+    max-width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body::-webkit-scrollbar {
+    width: var(--sb-size) 
+  }
+button.inline-flex.items-center{
+  background:#4f46e5
+}
+  body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 5px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 5px;
+    
+    }
+ a.rounded-md{
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Add transition for a smooth effect */
+}
+ a.rounded-md:hover {
+    background-color: #4f46e5; /* Change to the desired glow color on hover */
+    box-shadow: 0 0 10px rgba(79, 70, 229, 0.8); /* Optional: Add a box shadow for a more pronounced glow effect */
+ }
+  .absolute.left-0.top-0.flex.h-10.w-10{
+    transition: transform 0.3s ease-in-out;
+  }
+  .absolute.left-0.top-0.flex.h-10.w-10:hover{
+    transform: scale(1.1); /* Adjust the scaling factor as needed */
+  }
+  img.object-contain{
+    height:160%;
+    width:auto;
+    margin-right:20px
+  }
+  h1.text-5xl{
+    max-width:600px
+  }
+  h3.mt-6.mb-8{
+    max-width:600px
+  }
+  h1.text-5xl>span{
+    color:#4f46e5
+  }
+  .resumebtn{
+    background-color: #4f46e5;
+  }
+  dd.order-first{
+    color:#4f46e5
+  }
+  button.round-md{
+    background-color:#4f46e5;
+    transition: background-color 0.3s ease;
+  }
+  button.round-md:hover {
+    background-color: #635bd3; /* Adjust the color for the glow effect */
+    box-shadow: 0 0 10px rgba(81, 72, 229, 0.8); /* Adjust the shadow for the glow effect */
+  }
+  @media screen and (max-width:450px){
+    div.about{
+      flex-direction: column;
+    }
+    div.about>.right{
+      width:80%;
+    }
+    div.about>.left{
+      width:80%
+    }
+    .right{
+      justify-content: center;
+      align-items: center;
+    }
+    .left{
+      justify-content: center;
+      align-items: center;
+    }
+    div.flex.flex-col{
+      justify-content: center;
+      flex-wrap: wrap;
+      align-content: center;
+    }
+    div.grid.grid-cols-3{
+      display: flex;
+      flex-direction: column ;
+    }
+    .circle.flex.flex-col{
+      width:100%;
+      display:flex;
+      justify-content: center;
+      align-items:center
+    }
+    div.contact.bg-black.flex.flex-row{
+      min-height: fit-content;
+    }
+    div.mx-auto.max-w-7xl{
+      margin-top:80px
+    }
+  }
+  div.contact{
+    display: flex;
+    flex-direction: row;
+  }
+  div.right{
+    display: flex;
+    flex-direction: column;
+  }
+  .stacked{
+    width:100%;
+    height:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  div.box.h-20{
+    margin:0 none
+  }
+  div.text-center:before{
+    background-color:#4f46e5
+  }
+  div.circle:before{
+    background-color: #4f46e5;
+  }
+  .animate__animated.animate__fadeIn {
+    --animate-duration: 2s;
+  }
+  div.stacked{
+    min-height:150px;
+    min-width:200px;
+    max-width: 300px;
+    border-radius:10px;
+    align-items:start;
+    
+   padding:10px;
+   background-color: white;
+  }
