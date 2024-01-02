@@ -142,13 +142,14 @@ button.inline-flex.items-center{
     display: flex;
     flex-direction: column;
   }
-  .stacked{
-    width:100%;
-    height:40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  div.stacked{
+    min-height:150px;
+    min-width:200px;
+    max-width: 300px;
+    border-radius:10px;
+    justify-content: start;
+   padding:10px;
+   
   }
   div.box.h-20{
     margin:0 none
