@@ -4,7 +4,7 @@ import Sleep from "../img/sticker (1).png";
 import 'animate.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
+import { useState, useEffect } from 'react';
 AOS.init();
 
 const statss = [
@@ -21,6 +21,16 @@ const statss = [
   },
 ];
 const Home = () => {
+  const [currentAge, setCurrentAge] = useState(0);
+  
+    useEffect(() => {
+      const currentDate = new Date();
+      const currentYear = currentDate.getFullYear();
+      const birthYear = 2005;
+      const calculatedAge = currentYear - birthYear;
+  
+      setCurrentAge(calculatedAge);}
+, []); 
   return (
     <>
       <section className="dark:bg-black dark:text-gray-100">
@@ -77,7 +87,7 @@ const Home = () => {
         <div className="right m-10  w-1/2 h-auto text-white flex flex-col justify-center align-center">
           <h1 data-aos="fade-up" className="text-3xl w-full font-bold flex justify-center text-center m-5">My Life</h1>
           <p className="text-xl w-full" data-aos="fade-up">
-            I&apos;m Sachin Parihar, an 18-year-old BCA student at Manipal University
+            I&apos;m Sachin Parihar, an {currentAge}-year-old BCA student at Manipal University
             Jaipur, and I&apos;m really passionate about front-end development. As I
             delve into my studies, I find myself drawn to technologies like
             HTML, CSS, and JavaScript, which allow me to create visually
