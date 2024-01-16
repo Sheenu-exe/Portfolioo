@@ -1,5 +1,5 @@
-import Tictactoe from "../img/Scre   "../img/Flick.png\\"enshot 2023-12-18 123920.png"
-import Flick from   "../img/Flick.png"
+import Tictactoe from "../img/Screenshot 2023-12-18 123920.png"
+import Flick from  "../img/Flick.png\\"
 import "../App.css"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -14,7 +14,7 @@ export default function Projects() {
         <h1 className="text-white font-bold w-full flex justify-center align-center text-6xl">
           PROJECTS
         </h1>
-             <div data-aos="fade-up" className="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0 md:rounded-3xl">
+        <div data-aos="fade-up" className="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0 md:rounded-3xl">
             <svg
               viewBox="0 0 1024 1024"
               className="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
