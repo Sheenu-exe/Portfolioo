@@ -1,5 +1,5 @@
 import Tictactoe from "../img/Screenshot 2023-12-18 123920.png"
-import Flick from  "../img/Flick.png\\"
+import Flick from  "../img/Flick.png"
 import "../App.css"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
