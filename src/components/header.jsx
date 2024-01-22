@@ -5,7 +5,7 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 
-import Resume from "../img/Resume 00001.pdf"
+import Resume from "../img/Resume 00001.pdf";
 import Logo from "../img/Gray-PhotoRoom.png-PhotoRoom (1).png"
 import { BookOpenCheck, Code2, Home , FileCode2, HeartHandshake, FileText } from 'lucide-react'
 
