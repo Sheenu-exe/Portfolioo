@@ -1,5 +1,5 @@
 import Hero from "../img/—Pngtree—programmers working at home_8954697.png";
-import Resume from "../img/Resume (1).pdf";
+import Resume from "../img/Resume 00001.pdf";
 import Sleep from "../img/sticker (1).png";
 import 'animate.css';
 import AOS from 'aos';
