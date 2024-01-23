@@ -91,6 +91,22 @@ export default function Timeline() {
                 />
                 <h3 className="text-xl w-fit flex justify-center mx-2 font-semibold tracki">Material UI</h3>
                 </div>
+              <div data-aos="fade-up" className="w-full circle flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:w-full sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] ">
+                <img
+                  className="w-20 h-20 dark:text-violet-400"
+                  src={Firebase}
+                  alt=""
+                />
+                <h3 className="text-xl w-fit flex justify-center mx-2 font-semibold tracki">Firebase</h3>
+                </div>
+                <div data-aos="fade-up" className="w-full circle flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:w-full sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] ">
+                <img
+                  className="w-20 h-20 dark:text-violet-400"
+                  src={Vite}
+                  alt=""
+                />
+                <h3 className="text-xl w-fit flex justify-center mx-2 font-semibold tracki">Vite</h3>
+                </div>
               </div>
             
           </div>
