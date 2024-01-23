@@ -6,6 +6,8 @@ import Tailwind from "../img/icons8-tailwind-css-480.png";
 import Bootstrap from "../img/icons8-bootstrap-480.png";
 import NextJs from "../img/icons8-next.js-480.png";
 import MaterialUi from "../img/icons8-material-ui-480 (1).png";
+import Vite from "../img/icons8-vite-480.png";
+import Firebase from "../img/icons8-firebase-a-google's-mobile-platform-that-helps-you-quickly-develop-high-quality-apps-96.png"
 import "../App.css"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
