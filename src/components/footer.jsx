@@ -38,7 +38,7 @@ export default function Footer() {
             </a>
           </li>
           <li>
-            <a className="flex flex-row" rel="noopener noreferrer" href="#">
+            <a className="flex flex-row" rel="noopener noreferrer" href="https://github.com/Sheenu-exe">
 			<Github className="mr-1"/>Github
             </a>
           </li>
